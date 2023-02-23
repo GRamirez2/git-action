@@ -18,3 +18,4 @@ jobs:
           port: ${{ secrets.PORT }}
           source: "dist/**/*"
           target: "~/george.manage-my.site/prod"
+          rm: true
