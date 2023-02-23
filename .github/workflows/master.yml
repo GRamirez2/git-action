@@ -17,4 +17,3 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           source: "dist/index.html"
-          target: "/george.manage-my.site/prod"
