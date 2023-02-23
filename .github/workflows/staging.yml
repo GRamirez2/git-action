@@ -15,8 +15,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          source: "dist/**/*"
-          target: "/george.manage-my.site/staging"
+          source: "dist/**, dist/**/*"
+          target: "~/george.manage-my.site/staging"
           rm: true
